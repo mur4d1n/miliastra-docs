@@ -1,0 +1,9 @@
+.text-red {
+    color: rgba(251,44,54,1);
+    font-style: italic;
+}
+
+.text-blue {
+    color: rgba(89,111,254,1);
+    font-style: italic;
+}

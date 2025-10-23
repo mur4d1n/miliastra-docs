@@ -1,0 +1,42 @@
+site_name: Miliastra Wonderlands на русском
+site_url: https://test.url.ru
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Светлая тема
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Тёмная тема
+
+markdown_extensions: 
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins: 
+  - glightbox
+  - search
+extra_css:
+  - style.css
+nav:
+  - Перед прочтением: index.md
+  - Интерфейс:
+    - interface/index.md
