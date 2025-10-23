@@ -22,7 +22,7 @@ theme:
         icon: material/brightness-4
         name: Тёмная тема
 
-markdown_extensions: 
+markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
@@ -31,7 +31,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-plugins: 
+plugins:
   - glightbox
   - search
 extra_css:
@@ -40,3 +40,4 @@ nav:
   - Перед прочтением: index.md
   - Интерфейс:
     - interface/index.md
+    - Рабочая область: interface/main-interface.md
