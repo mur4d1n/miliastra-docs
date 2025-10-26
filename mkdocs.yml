@@ -41,3 +41,4 @@ nav:
   - Интерфейс:
     - interface/index.md
     - Рабочая область: interface/main-interface.md
+    - Редактирование ландшафта: interface/terrain-editing.md

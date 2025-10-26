@@ -7,3 +7,7 @@
     color: rgba(89,111,254,1);
     font-style: italic;
 }
+
+.inline-image img {
+    max-width: 200px;
+}
